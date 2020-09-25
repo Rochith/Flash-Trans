@@ -154,7 +154,7 @@ public class Registration {
 		return transcationPin;
 	}
 	/**
-	 * @param transcationPin the transcationPin to set
+	 * @param transcationPin the transcationPin to set(Rochith)
 	 */
 	public void setTranscationPin(int transcationPin) {
 		this.transcationPin = transcationPin;
