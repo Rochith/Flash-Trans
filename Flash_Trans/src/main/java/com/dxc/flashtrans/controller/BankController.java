@@ -10,8 +10,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.dxc.flashtrans.entity.AdminLogin;
 import com.dxc.flashtrans.entity.Registration;
 import com.dxc.flashtrans.entity.SavingsAccount;
+import com.dxc.flashtrans.service.AdminLoginService;
 import com.dxc.flashtrans.service.RegistrationService;
 import com.dxc.flashtrans.service.SavingsAccountService;
 
@@ -34,6 +36,12 @@ public class BankController {
 	@Autowired
 	SavingsAccountService savingsService;
 	
+	@Autowired
+	AdminLogin admin;
+	
+	@Autowired
+	AdminLoginService adminService;
+	
 	
 	@ApiOperation(value="insert bank details",produces="json data",response=Registration.class)
 	@PostMapping(path="/add")
@@ -51,6 +59,18 @@ public class BankController {
 	@GetMapping(path="/gete")
 	public List<SavingsAccount> eStatement(){
 		return savingsService.eStatement();
+		
+	}
+	//@ApiOperation(value="insert bank details",produces="json data",response=AdminLogin.class)
+	@PostMapping(path="/deposit")
+	public AdminLogin adminDeposit(AdminLogin adminlogin) {
+		return adminService.adminDeposit(adminlogin);
+		
+	}
+	@ApiOperation(value="insert bank details",produces="json data",response=AdminLogin.class)
+	@GetMapping(path="/getTransacation")
+	public List<AdminLogin> getAllTransaction(){
+		return adminService.getAllTransactions();
 		
 	}
 
