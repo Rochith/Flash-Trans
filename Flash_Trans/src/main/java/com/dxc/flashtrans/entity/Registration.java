@@ -1,8 +1,6 @@
 package com.dxc.flashtrans.entity;
 
-import java.math.BigDecimal;
 import java.util.Date;
-//import java.sql.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -10,33 +8,36 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import org.springframework.stereotype.Component;
+
+@Component
 @Entity
 public class Registration {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "userId", nullable = false, updatable = false)
-	private BigDecimal userId;
+	private long userId;
     private String userName;
     private String password;
     private String firstName;
     private String lastName;
     private String email;
-    private BigDecimal phoneNumber;
+    private double phoneNumber;
     private String accountType;
-    private BigDecimal aadharNumber;
+    private double aadharNumber;
     private Date dateOfBirth;
-    private int transcationPin;
+    private int transactionPin;
 	/**
 	 * @return the userId
 	 */
-	public BigDecimal getUserId() {
+	public long getUserId() {
 		return userId;
 	}
 	/**
 	 * @param userId the userId to set
 	 */
-	public void setUserId(BigDecimal userId) {
+	public void setUserId(long userId) {
 		this.userId = userId;
 	}
 	/**
@@ -102,13 +103,13 @@ public class Registration {
 	/**
 	 * @return the phoneNumber
 	 */
-	public BigDecimal getPhoneNumber() {
+	public double getPhoneNumber() {
 		return phoneNumber;
 	}
 	/**
 	 * @param phoneNumber the phoneNumber to set
 	 */
-	public void setPhoneNumber(BigDecimal phoneNumber) {
+	public void setPhoneNumber(double phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
 	/**
@@ -126,13 +127,13 @@ public class Registration {
 	/**
 	 * @return the aadharNumber
 	 */
-	public BigDecimal getAadharNumber() {
+	public double getAadharNumber() {
 		return aadharNumber;
 	}
 	/**
 	 * @param aadharNumber the aadharNumber to set
 	 */
-	public void setAadharNumber(BigDecimal aadharNumber) {
+	public void setAadharNumber(double aadharNumber) {
 		this.aadharNumber = aadharNumber;
 	}
 	/**
@@ -148,23 +149,23 @@ public class Registration {
 		this.dateOfBirth = dateOfBirth;
 	}
 	/**
-	 * @return the transcationPin
+	 * @return the transactionPin
 	 */
-	public int getTranscationPin() {
-		return transcationPin;
+	public int gettransactionPin() {
+		return transactionPin;
 	}
 	/**
-	 * @param transcationPin the transcationPin to set(Rochith)
+	 * @param transactionPin the transactionPin to set(Rochith)
 	 */
-	public void setTranscationPin(int transcationPin) {
-		this.transcationPin = transcationPin;
+	public void settransactionPin(int transactionPin) {
+		this.transactionPin = transactionPin;
 	}
 	@Override
 	public String toString() {
 		return "Registration [userId=" + userId + ", userName=" + userName + ", password=" + password + ", firstName="
 				+ firstName + ", lastName=" + lastName + ", email=" + email + ", phoneNumber=" + phoneNumber
 				+ ", accountType=" + accountType + ", aadharNumber=" + aadharNumber + ", dateOfBirth=" + dateOfBirth
-				+ ", transcationPin=" + transcationPin + "]";
+				+ ", transactionPin=" + transactionPin + "]";
 	}
     
     
