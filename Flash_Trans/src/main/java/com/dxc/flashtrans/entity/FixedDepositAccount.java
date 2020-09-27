@@ -15,21 +15,21 @@ public class FixedDepositAccount {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	//@Column(name = "savingsId", nullable = false, updatable = false)
-	private long savingsId;
+	private long fixedDepositId;
 	private Date transactionDate;
 	private String transactionType;
-	private long balance;
+	private long balanceAmount;
 	/**
-	 * @return the savingsId
+	 * @return the fixedDepositId
 	 */
-	public long getSavingsId() {
-		return savingsId;
+	public long getFixedDepositId() {
+		return fixedDepositId;
 	}
 	/**
-	 * @param savingsId the savingsId to set
+	 * @param fixedDepositId the fixedDepositId to set
 	 */
-	public void setSavingsId(long savingsId) {
-		this.savingsId = savingsId;
+	public void setFixedDepositId(long fixedDepositId) {
+		this.fixedDepositId = fixedDepositId;
 	}
 	/**
 	 * @return the transactionDate
@@ -58,19 +58,19 @@ public class FixedDepositAccount {
 	/**
 	 * @return the balance
 	 */
-	public long getBalance() {
-		return balance;
+	public long getBalanceAmount() {
+		return balanceAmount;
 	}
 	/**
 	 * @param balance the balance to set
 	 */
 	public void setBalance(long balance) {
-		this.balance = balance;
+		this.balanceAmount = balance;
 	}
 	@Override
 	public String toString() {
-		return "SavingsAccount [savingsId=" + savingsId + ", transactionDate=" + transactionDate + ", transactionType="
-				+ transactionType + ", balance=" + balance + "]";
+		return "FixedDepositAccount [fixedDepositId=" + fixedDepositId + ", transactionDate=" + transactionDate
+				+ ", transactionType=" + transactionType + ", balance=" + balanceAmount + "]";
 	}
-
+	
 }

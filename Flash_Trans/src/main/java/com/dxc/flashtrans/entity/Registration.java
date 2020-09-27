@@ -155,7 +155,7 @@ public class Registration {
 		return transactionPin;
 	}
 	/**
-	 * @param transactionPin the transactionPin to set(Rochith)
+	 * @param transactionPin the transactionPin to set
 	 */
 	public void settransactionPin(int transactionPin) {
 		this.transactionPin = transactionPin;
