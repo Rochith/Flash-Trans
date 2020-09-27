@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import org.springframework.stereotype.Component;
 
 /**
- * @author gsandaka
+ * @author Flash Trans
  *
  */
 @Component

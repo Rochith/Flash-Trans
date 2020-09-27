@@ -19,7 +19,7 @@ public class SavingsAccount {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	//@Column(name = "savingsId", nullable = false, updatable = false)
 	private long savingsId;
-	private Date transactionDate;
+	private String transactionDate;
 	private String transactionType;
 	private long balance;
 	/**
@@ -37,13 +37,13 @@ public class SavingsAccount {
 	/**
 	 * @return the transactionDate
 	 */
-	public Date getTransactionDate() {
+	public String getTransactionDate() {
 		return transactionDate;
 	}
 	/**
 	 * @param transactionDate the transactionDate to set
 	 */
-	public void setTransactionDate(Date transactionDate) {
+	public void setTransactionDate(String transactionDate) {
 		this.transactionDate = transactionDate;
 	}
 	/**

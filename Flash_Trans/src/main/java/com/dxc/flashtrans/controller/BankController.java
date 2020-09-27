@@ -4,6 +4,7 @@ package com.dxc.flashtrans.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -25,9 +26,10 @@ import com.dxc.flashtrans.service.SavingsAccountService;
 
 import io.swagger.annotations.ApiOperation;
 
-@ApiOperation(value="/mvn",tags="Bank Controller with RestFull")
+//@ApiOperation(value="/mvn",tags="Bank Controller with RestFull")
 @RestController
 @RequestMapping("/Bank")
+@CrossOrigin("http://localhost:4200")
 public class BankController {
 	
 	@Autowired
@@ -68,19 +70,19 @@ public class BankController {
 	
 	
 	
-	@ApiOperation(value="insert bank details",produces="json data",response=Registration.class)
+	//@ApiOperation(value="insert bank details",produces="json data",response=Registration.class)
 	@PostMapping(path="/add")
 	public Registration userRegistration(@RequestBody Registration registration) {
 		return Regservice.userRegistration(registration);
 		
 	}
-	@ApiOperation(value="insert bank details",produces="json data",response=SavingsAccount.class)
+	//@ApiOperation(value="insert bank details",produces="json data",response=SavingsAccount.class)
 	@GetMapping(path="/getmini")
 	public List<SavingsAccount> miniStatement(){
 		return savingsservice.miniStatement();
 		
 	}
-	@ApiOperation(value="insert bank details",produces="json data",response=SavingsAccount.class)
+	//@ApiOperation(value="insert bank details",produces="json data",response=SavingsAccount.class)
 	@GetMapping(path="/gete")
 	public List<SavingsAccount> eStatement(){
 		return savingsservice.eStatement();
@@ -92,19 +94,19 @@ public class BankController {
 		return adminservice.adminDeposit(adminlogin);
 		
 	}
-	@ApiOperation(value="insert bank details",produces="json data",response=AdminLogin.class)
+	//@ApiOperation(value="insert bank details",produces="json data",response=AdminLogin.class)
 	@GetMapping(path="/getTransacation")
 	public List<AdminLogin> getAllTransaction(){
 		return adminservice.getAllTransactions();
 		
 	}
-	@ApiOperation(value="insert bank details",produces="json data",response=FixedDepositAccount.class)
+	//@ApiOperation(value="insert bank details",produces="json data",response=FixedDepositAccount.class)
 	@PostMapping(path="/fdadd")
 	public FixedDepositAccount depositAmount(FixedDepositAccount fixeddepositaccount) {
 		return fdservice.depositAmount(fixeddepositaccount);
 		
 	}
-	@ApiOperation(value="insert bank details",produces="json data",response=ReoccuringAccount.class)
+	//@ApiOperation(value="insert bank details",produces="json data",response=ReoccuringAccount.class)
 	@PostMapping(path="/rdadd")
 	public ReoccuringAccount depositAmount(ReoccuringAccount reoccuringaccount) {
 		return rdservice.depositAmount(reoccuringaccount);

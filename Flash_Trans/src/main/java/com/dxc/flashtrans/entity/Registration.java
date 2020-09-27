@@ -26,8 +26,21 @@ public class Registration {
     private double phoneNumber;
     private String accountType;
     private double aadharNumber;
-    private Date dateOfBirth;
+    private String dateOfBirth;
     private int transactionPin;
+    private String gender;
+	/**
+	 * @return the gender
+	 */
+	public String getGender() {
+		return gender;
+	}
+	/**
+	 * @param gender the gender to set
+	 */
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
 	/**
 	 * @return the userId
 	 */
@@ -139,13 +152,13 @@ public class Registration {
 	/**
 	 * @return the dateOfBirth
 	 */
-	public Date getDateOfBirth() {
+	public String getDateOfBirth() {
 		return dateOfBirth;
 	}
 	/**
 	 * @param dateOfBirth the dateOfBirth to set
 	 */
-	public void setDateOfBirth(Date dateOfBirth) {
+	public void setDateOfBirth(String dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
 	/**
