@@ -2,6 +2,7 @@ package com.dxc.flashtrans.entity;
 
 import java.util.Date;
 
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,14 +11,13 @@ import javax.persistence.Id;
 import org.springframework.stereotype.Component;
 @Component
 @Entity
-
 public class ReoccuringAccount {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	//@GeneratedValue(strategy = GenerationType.IDENTITY)
 
 	private long reoccuringAccountId;
-	private Date transactionDate;
+	private String transactionDate;
 	private String transactionType;
 	private long balanceAmount;
 	/**
@@ -35,13 +35,13 @@ public class ReoccuringAccount {
 	/**
 	 * @return the transactionDate
 	 */
-	public Date getTransactionDate() {
+	public String getTransactionDate() {
 		return transactionDate;
 	}
 	/**
 	 * @param transactionDate the transactionDate to set
 	 */
-	public void setTransactionDate(Date transactionDate) {
+	public void setTransactionDate(String transactionDate) {
 		this.transactionDate = transactionDate;
 	}
 	/**

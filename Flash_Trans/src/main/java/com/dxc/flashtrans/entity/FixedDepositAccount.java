@@ -13,10 +13,9 @@ import org.springframework.stereotype.Component;
 @Entity
 public class FixedDepositAccount {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	//@Column(name = "savingsId", nullable = false, updatable = false)
+	//@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long fixedDepositId;
-	private Date transactionDate;
+	private String transactionDate;
 	private String transactionType;
 	private long balanceAmount;
 	/**
@@ -34,13 +33,13 @@ public class FixedDepositAccount {
 	/**
 	 * @return the transactionDate
 	 */
-	public Date getTransactionDate() {
+	public String getTransactionDate() {
 		return transactionDate;
 	}
 	/**
 	 * @param transactionDate the transactionDate to set
 	 */
-	public void setTransactionDate(Date transactionDate) {
+	public void setTransactionDate(String transactionDate) {
 		this.transactionDate = transactionDate;
 	}
 	/**
@@ -58,19 +57,23 @@ public class FixedDepositAccount {
 	/**
 	 * @return the balance
 	 */
-	public long getBalanceAmount() {
-		return balanceAmount;
-	}
-	/**
-	 * @param balance the balance to set
-	 */
-	public void setBalance(long balance) {
-		this.balanceAmount = balance;
-	}
+	
 	@Override
 	public String toString() {
 		return "FixedDepositAccount [fixedDepositId=" + fixedDepositId + ", transactionDate=" + transactionDate
 				+ ", transactionType=" + transactionType + ", balance=" + balanceAmount + "]";
+	}
+	/**
+	 * @return the balanceAmount
+	 */
+	public long getBalanceAmount() {
+		return balanceAmount;
+	}
+	/**
+	 * @param balanceAmount the balanceAmount to set
+	 */
+	public void setBalanceAmount(long balanceAmount) {
+		this.balanceAmount = balanceAmount;
 	}
 	
 }

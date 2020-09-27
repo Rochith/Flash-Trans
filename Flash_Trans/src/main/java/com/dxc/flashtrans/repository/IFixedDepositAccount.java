@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.dxc.flashtrans.entity.FixedDepositAccount;
 
 @Repository
-public interface IFixedDepositeAccount extends JpaRepository<FixedDepositAccount,Long> {
+public interface IFixedDepositAccount extends JpaRepository<FixedDepositAccount,Long> {
 
 }
