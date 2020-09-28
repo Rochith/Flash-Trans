@@ -13,9 +13,11 @@ import org.springframework.stereotype.Component;
 @Entity
 public class FixedDepositAccount {
 	@Id
-	//@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long fixedDepositId;
-	private String transactionDate;
+	private String fdName;
+	private String transactionFDate;
+	private String transactionTDate;
 	private String transactionType;
 	private long balanceAmount;
 	/**
@@ -34,13 +36,13 @@ public class FixedDepositAccount {
 	 * @return the transactionDate
 	 */
 	public String getTransactionDate() {
-		return transactionDate;
+		return transactionFDate;
 	}
 	/**
 	 * @param transactionDate the transactionDate to set
 	 */
 	public void setTransactionDate(String transactionDate) {
-		this.transactionDate = transactionDate;
+		this.transactionFDate = transactionDate;
 	}
 	/**
 	 * @return the transactionType
@@ -54,14 +56,12 @@ public class FixedDepositAccount {
 	public void setTransactionType(String transactionType) {
 		this.transactionType = transactionType;
 	}
-	/**
-	 * @return the balance
-	 */
 	
 	@Override
 	public String toString() {
-		return "FixedDepositAccount [fixedDepositId=" + fixedDepositId + ", transactionDate=" + transactionDate
-				+ ", transactionType=" + transactionType + ", balance=" + balanceAmount + "]";
+		return "FixedDepositAccount [fixedDepositId=" + fixedDepositId + ", fdName=" + fdName + ", transactionFDate="
+				+ transactionFDate + ", transactionTDate=" + transactionTDate + ", transactionType=" + transactionType
+				+ ", balanceAmount=" + balanceAmount + "]";
 	}
 	/**
 	 * @return the balanceAmount
@@ -74,6 +74,30 @@ public class FixedDepositAccount {
 	 */
 	public void setBalanceAmount(long balanceAmount) {
 		this.balanceAmount = balanceAmount;
+	}
+	/**
+	 * @return the fdName
+	 */
+	public String getFdName() {
+		return fdName;
+	}
+	/**
+	 * @param fdName the fdName to set
+	 */
+	public void setFdName(String fdName) {
+		this.fdName = fdName;
+	}
+	/**
+	 * @return the transactionTDate
+	 */
+	public String getTransactionTDate() {
+		return transactionTDate;
+	}
+	/**
+	 * @param transactionTDate the transactionTDate to set
+	 */
+	public void setTransactionTDate(String transactionTDate) {
+		this.transactionTDate = transactionTDate;
 	}
 	
 }
