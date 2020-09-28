@@ -14,10 +14,12 @@ import org.springframework.stereotype.Component;
 public class ReoccuringAccount {
 	
 	@Id
-	//@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 
 	private long reoccuringAccountId;
-	private String transactionDate;
+	private String rdName;
+	private String transactionTDate;
+	private String transactionFDate;
 	private String transactionType;
 	private long balanceAmount;
 	/**
@@ -36,13 +38,13 @@ public class ReoccuringAccount {
 	 * @return the transactionDate
 	 */
 	public String getTransactionDate() {
-		return transactionDate;
+		return transactionFDate;
 	}
 	/**
 	 * @param transactionDate the transactionDate to set
 	 */
 	public void setTransactionDate(String transactionDate) {
-		this.transactionDate = transactionDate;
+		this.transactionFDate = transactionDate;
 	}
 	/**
 	 * @return the transactionType
@@ -68,9 +70,35 @@ public class ReoccuringAccount {
 	public void setBalanceAmount(long balanceAmount) {
 		this.balanceAmount = balanceAmount;
 	}
+	
+	/**
+	 * @return the transactionTDate
+	 */
+	public String getTransactionTDate() {
+		return transactionTDate;
+	}
+	/**
+	 * @param transactionTDate the transactionTDate to set
+	 */
+	public void setTransactionTDate(String transactionTDate) {
+		this.transactionTDate = transactionTDate;
+	}
+	/**
+	 * @return the rdName
+	 */
+	public String getRdName() {
+		return rdName;
+	}
+	/**
+	 * @param rdName the rdName to set
+	 */
+	public void setRdName(String rdName) {
+		this.rdName = rdName;
+	}
 	@Override
 	public String toString() {
-		return "ReoccuringAccount [reoccuringAccountId=" + reoccuringAccountId + ", transactionDate=" + transactionDate
+		return "ReoccuringAccount [reoccuringAccountId=" + reoccuringAccountId + ", rdName=" + rdName
+				+ ", transactionTDate=" + transactionTDate + ", transactionFDate=" + transactionFDate
 				+ ", transactionType=" + transactionType + ", balanceAmount=" + balanceAmount + "]";
 	}
 	
