@@ -33,49 +33,6 @@ public class FixedDepositAccount {
 		this.fixedDepositId = fixedDepositId;
 	}
 	/**
-	 * @return the transactionDate
-	 */
-	public String getTransactionDate() {
-		return transactionFDate;
-	}
-	/**
-	 * @param transactionDate the transactionDate to set
-	 */
-	public void setTransactionDate(String transactionDate) {
-		this.transactionFDate = transactionDate;
-	}
-	/**
-	 * @return the transactionType
-	 */
-	public String getTransactionType() {
-		return transactionType;
-	}
-	/**
-	 * @param transactionType the transactionType to set
-	 */
-	public void setTransactionType(String transactionType) {
-		this.transactionType = transactionType;
-	}
-	
-	@Override
-	public String toString() {
-		return "FixedDepositAccount [fixedDepositId=" + fixedDepositId + ", fdName=" + fdName + ", transactionFDate="
-				+ transactionFDate + ", transactionTDate=" + transactionTDate + ", transactionType=" + transactionType
-				+ ", balanceAmount=" + balanceAmount + "]";
-	}
-	/**
-	 * @return the balanceAmount
-	 */
-	public long getBalanceAmount() {
-		return balanceAmount;
-	}
-	/**
-	 * @param balanceAmount the balanceAmount to set
-	 */
-	public void setBalanceAmount(long balanceAmount) {
-		this.balanceAmount = balanceAmount;
-	}
-	/**
 	 * @return the fdName
 	 */
 	public String getFdName() {
@@ -86,6 +43,18 @@ public class FixedDepositAccount {
 	 */
 	public void setFdName(String fdName) {
 		this.fdName = fdName;
+	}
+	/**
+	 * @return the transactionFDate
+	 */
+	public String getTransactionFDate() {
+		return transactionFDate;
+	}
+	/**
+	 * @param transactionFDate the transactionFDate to set
+	 */
+	public void setTransactionFDate(String transactionFDate) {
+		this.transactionFDate = transactionFDate;
 	}
 	/**
 	 * @return the transactionTDate
@@ -99,5 +68,36 @@ public class FixedDepositAccount {
 	public void setTransactionTDate(String transactionTDate) {
 		this.transactionTDate = transactionTDate;
 	}
+	/**
+	 * @return the transactionType
+	 */
+	public String getTransactionType() {
+		return transactionType;
+	}
+	/**
+	 * @param transactionType the transactionType to set
+	 */
+	public void setTransactionType(String transactionType) {
+		this.transactionType = transactionType;
+	}
+	/**
+	 * @return the balanceAmount
+	 */
+	public long getBalanceAmount() {
+		return balanceAmount;
+	}
+	/**
+	 * @param balanceAmount the balanceAmount to set
+	 */
+	public void setBalanceAmount(long balanceAmount) {
+		this.balanceAmount = balanceAmount;
+	}
+	@Override
+	public String toString() {
+		return "FixedDepositAccount [fixedDepositId=" + fixedDepositId + ", fdName=" + fdName + ", transactionFDate="
+				+ transactionFDate + ", transactionTDate=" + transactionTDate + ", transactionType=" + transactionType
+				+ ", balanceAmount=" + balanceAmount + "]";
+	}
+	
 	
 }
