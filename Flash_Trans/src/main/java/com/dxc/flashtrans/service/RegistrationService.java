@@ -19,6 +19,17 @@ public class RegistrationService implements IRegistrationService {
 	public Registration userRegistration(Registration registration) {
 		
 		return data.save(registration);
+	
+		/*
+		 * } public Registration validateRegistration(Registration registration) {
+		 * if((registration.getFirstName().length()>=3) &&
+		 * (registration.getAadharNumber().length()== 12 &&
+		 * registration.getPhoneNumber().length() == 10 &&
+		 * registration.getPassword().length() == 8 &&
+		 * registration.gettransactionPin().length() == 4))
+		 * 
+		 * { return registration; } return null;
+		 */
 	}
 
 }
