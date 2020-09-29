@@ -90,7 +90,7 @@ public class BankController {
 	}
 	//@ApiOperation(value="insert bank details",produces="json data",response=AdminLogin.class)
 	@PostMapping(path="/deposit")
-	public AdminLogin adminDeposit(AdminLogin adminlogin) {
+	public AdminLogin adminDeposit( @RequestBody AdminLogin adminlogin) {
 		return adminservice.adminDeposit(adminlogin);
 		
 	}
@@ -102,18 +102,18 @@ public class BankController {
 	}
 	//@ApiOperation(value="insert bank details",produces="json data",response=FixedDepositAccount.class)
 	@PostMapping(path="/fdadd")
-	public FixedDepositAccount depositAmount(FixedDepositAccount fixeddepositaccount) {
+	public FixedDepositAccount depositAmount( @RequestBody FixedDepositAccount fixeddepositaccount) {
 		return fdservice.depositAmount(fixeddepositaccount);
 		
 	}
 	//@ApiOperation(value="insert bank details",produces="json data",response=ReoccuringAccount.class)
 	@PostMapping(path="/rdadd")
-	public ReoccuringAccount depositAmount(ReoccuringAccount reoccuringaccount) {
+	public ReoccuringAccount depositAmount(@RequestBody ReoccuringAccount reoccuringaccount) {
 		return rdservice.depositAmount(reoccuringaccount);
 		
 	}
 	@PostMapping(path="/remiadd")
-	public RemittanceManagement addAccount(RemittanceManagement remittancemanagement) {
+	public RemittanceManagement addAccount(@RequestBody RemittanceManagement remittancemanagement) {
 		return remiservice.addAccount(remittancemanagement);
 		
 	}
