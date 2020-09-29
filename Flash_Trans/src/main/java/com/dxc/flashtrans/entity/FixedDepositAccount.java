@@ -63,7 +63,7 @@ public class FixedDepositAccount {
 		return transactionTDate;
 	}
 	/**
-	 * @param transactionTDate the transactionTDate to set
+	 * @param transactionTDate the transactionTDate to set/
 	 */
 	public void setTransactionTDate(String transactionTDate) {
 		this.transactionTDate = transactionTDate;
