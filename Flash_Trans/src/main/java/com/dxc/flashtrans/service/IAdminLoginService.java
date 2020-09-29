@@ -2,7 +2,7 @@ package com.dxc.flashtrans.service;
 
 import java.util.List;
 
-import com.dxc.flashtrans.entity.AdminLogin;
+import com.dxc.flashtrans.entites.AdminLogin;
 
 public interface IAdminLoginService {
 	

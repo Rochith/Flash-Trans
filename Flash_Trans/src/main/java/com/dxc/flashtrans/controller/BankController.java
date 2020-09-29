@@ -11,20 +11,20 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dxc.flashtrans.entity.AdminLogin;
-import com.dxc.flashtrans.entity.FixedDepositAccount;
-import com.dxc.flashtrans.entity.Registration;
-import com.dxc.flashtrans.entity.RemittanceManagement;
-import com.dxc.flashtrans.entity.ReoccuringAccount;
-import com.dxc.flashtrans.entity.SavingsAccount;
+import com.dxc.flashtrans.entites.AdminLogin;
+import com.dxc.flashtrans.entites.BillPayments;
+import com.dxc.flashtrans.entites.FixedDepositAccount;
+import com.dxc.flashtrans.entites.Registration;
+import com.dxc.flashtrans.entites.RemittanceManagement;
+import com.dxc.flashtrans.entites.ReoccuringAccount;
+import com.dxc.flashtrans.entites.SavingsAccount;
 import com.dxc.flashtrans.service.AdminLoginService;
+import com.dxc.flashtrans.service.BillPaymentsService;
 import com.dxc.flashtrans.service.FixedDepositService;
 import com.dxc.flashtrans.service.RegistrationService;
 import com.dxc.flashtrans.service.RemittanceManagementService;
 import com.dxc.flashtrans.service.ReoccuringAccountService;
 import com.dxc.flashtrans.service.SavingsAccountService;
-
-import io.swagger.annotations.ApiOperation;
 
 //@ApiOperation(value="/mvn",tags="Bank Controller with RestFull")
 @RestController
@@ -68,7 +68,11 @@ public class BankController {
 	@Autowired
 	RemittanceManagementService remiservice;
 	
+	@Autowired
+	BillPayments bills;
 	
+	@Autowired
+	BillPaymentsService billservice;
 	
 	//@ApiOperation(value="insert bank details",produces="json data",response=Registration.class)
 	@PostMapping(path="/add")
@@ -116,6 +120,10 @@ public class BankController {
 	public RemittanceManagement addAccount(@RequestBody RemittanceManagement remittancemanagement) {
 		return remiservice.addAccount(remittancemanagement);
 		
+	}
+	@PostMapping(path="/bill")
+	public BillPayments addBills(@RequestBody BillPayments billpayments) {
+		return billservice.addBills(billpayments);
 	}
 
 }

@@ -2,7 +2,7 @@ package com.dxc.flashtrans.service;
 
 
 
-import com.dxc.flashtrans.entity.Registration;
+import com.dxc.flashtrans.entites.Registration;
 
 
 public interface IRegistrationService {

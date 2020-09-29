@@ -1,6 +1,6 @@
 package com.dxc.flashtrans.service;
 
-import com.dxc.flashtrans.entity.FixedDepositAccount;
+import com.dxc.flashtrans.entites.FixedDepositAccount;
 
 public interface IFixedDepositService {
 	

@@ -1,4 +1,4 @@
-package com.dxc.flashtrans.entity;
+package com.dxc.flashtrans.entites;
 
 import java.util.Date;
 
@@ -21,6 +21,7 @@ public class ReoccuringAccount {
 	private String transactionTDate;
 	private String transactionFDate;
 	private String transactionType;
+	private int transactionPin;
 	private long balanceAmount;
 	/**
 	 * @return the reoccuringAccountId
@@ -95,11 +96,25 @@ public class ReoccuringAccount {
 	public void setRdName(String rdName) {
 		this.rdName = rdName;
 	}
+	
 	@Override
 	public String toString() {
 		return "ReoccuringAccount [reoccuringAccountId=" + reoccuringAccountId + ", rdName=" + rdName
 				+ ", transactionTDate=" + transactionTDate + ", transactionFDate=" + transactionFDate
-				+ ", transactionType=" + transactionType + ", balanceAmount=" + balanceAmount + "]";
+				+ ", transactionType=" + transactionType + ", transactionPin=" + transactionPin + ", balanceAmount="
+				+ balanceAmount + "]";
+	}
+	/**
+	 * @return the transactionPin
+	 */
+	public int getTransactionPin() {
+		return transactionPin;
+	}
+	/**
+	 * @param transactionPin the transactionPin to set
+	 */
+	public void setTransactionPin(int transactionPin) {
+		this.transactionPin = transactionPin;
 	}
 	
 	

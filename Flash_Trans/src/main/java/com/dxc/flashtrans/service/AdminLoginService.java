@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.dxc.flashtrans.entity.AdminLogin;
+import com.dxc.flashtrans.entites.AdminLogin;
 import com.dxc.flashtrans.repository.IAdminLogin;
 
 @Service

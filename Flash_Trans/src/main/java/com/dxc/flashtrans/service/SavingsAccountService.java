@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.dxc.flashtrans.entity.SavingsAccount;
+import com.dxc.flashtrans.entites.SavingsAccount;
 import com.dxc.flashtrans.repository.ISavingsAccount;
 
 @Service

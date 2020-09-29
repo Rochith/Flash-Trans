@@ -2,7 +2,7 @@ package com.dxc.flashtrans.service;
 
 import java.util.List;
 
-import com.dxc.flashtrans.entity.SavingsAccount;
+import com.dxc.flashtrans.entites.SavingsAccount;
 
 public interface ISavingsAccountService {
 	

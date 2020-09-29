@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.dxc.flashtrans.entity;
+package com.dxc.flashtrans.entites;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

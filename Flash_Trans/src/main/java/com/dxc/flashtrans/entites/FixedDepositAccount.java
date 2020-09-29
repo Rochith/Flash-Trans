@@ -1,4 +1,4 @@
-package com.dxc.flashtrans.entity;
+package com.dxc.flashtrans.entites;
 
 import java.util.Date;
 
@@ -19,6 +19,7 @@ public class FixedDepositAccount {
 	private String transactionFDate;
 	private String transactionTDate;
 	private String transactionType;
+	private int transactionPin;
 	private long balanceAmount;
 	/**
 	 * @return the fixedDepositId
@@ -92,11 +93,24 @@ public class FixedDepositAccount {
 	public void setBalanceAmount(long balanceAmount) {
 		this.balanceAmount = balanceAmount;
 	}
+
+	/**
+	 * @return the transactionPin
+	 */
+	public int getTransactionPin() {
+		return transactionPin;
+	}
+	/**
+	 * @param transactionPin the transactionPin to set
+	 */
+	public void setTransactionPin(int transactionPin) {
+		this.transactionPin = transactionPin;
+	}
 	@Override
 	public String toString() {
 		return "FixedDepositAccount [fixedDepositId=" + fixedDepositId + ", fdName=" + fdName + ", transactionFDate="
 				+ transactionFDate + ", transactionTDate=" + transactionTDate + ", transactionType=" + transactionType
-				+ ", balanceAmount=" + balanceAmount + "]";
+				+ ", transactionPin=" + transactionPin + ", balanceAmount=" + balanceAmount + "]";
 	}
 	
 	

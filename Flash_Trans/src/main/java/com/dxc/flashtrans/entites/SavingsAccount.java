@@ -1,4 +1,4 @@
-package com.dxc.flashtrans.entity;
+package com.dxc.flashtrans.entites;
 
 
 import java.util.Date;
