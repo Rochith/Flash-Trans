@@ -94,7 +94,7 @@ public class BankController {
 		return adminservice.adminDeposit(adminlogin);
 		
 	}
-	//@ApiOperation(value="insert bank details",produces="json data",response=AdminLogin.class)
+	//@ApiOperation(value="insert  bank details",produces="json data",response=AdminLogin.class)
 	@GetMapping(path="/getTransacation")
 	public List<AdminLogin> getAllTransaction(){
 		return adminservice.getAllTransactions();
