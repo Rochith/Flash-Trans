@@ -26,45 +26,21 @@ public class RegistrationService implements IRegistrationService {
 			throw new RegistrationException("Registration Failed....");
 		}
 	
-		/*
-		 * } public Registration validateRegistration(Registration registration) {
-		 * if((registration.getFirstName().length()>=3) &&
-		 * (registration.getAadharNumber().length()== 12 &&
-		 * registration.getPhoneNumber().length() == 10 &&
-		 * registration.getPassword().length() == 8 &&
-		 * registration.gettransactionPin().length() == 4))
-		 * 
-		 * { return registration; } return null;
-		 * if ((registration.getFirstName().length() >= 3) && (registration.getAccountType() == "Savings"
-
-registration.getAccountType() == "Fixed Deposit"
-
-|| registration.getAccountType() == "Reoccuring")
-
-&& registration.getAddressLine1() != null && registration.getCity() != null
-
-&& registration.getNation() != null && registration.getState() != null && (registration.getEmail().matches ("[\\w-\\.+]*[\\w-\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$")
-
-&& (registration.getContact Number() >= 1000000000 L & registration.getContactNumber() <= 9999999999L))) {
-
-return registration;
-
-}
-
-return null;
-		 */
+		
 	}
-	private Registration validateRegistration(Registration registration) {
+	
+	
+      private Registration validateRegistration(Registration registration) {
 		
 		if((registration.getFirstName().length()>=3)&& (registration.getEmail().matches ("[\\w-\\.+]*[\\w-\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$")
 
-&& (registration.getPhoneNumber() >= 1000000000l && registration.getPhoneNumber() <= 9999999999l) && (registration.getPassword().matches("[\\w-\\.+]*[\\w-\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$")) 
-&& (registration.gettransactionPin()>=1000 && registration.gettransactionPin()<=9999) && (registration.getAadharNumber()>=100000000000l && registration.getAadharNumber()<= 999999999999l))){
+        && (registration.getPhoneNumber() >= 1000000000l && registration.getPhoneNumber() <= 9999999999l) && (registration.getPassword().matches("[\\w-\\.+]*[\\w-\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$")) 
+        && (registration.gettransactionPin()>=1000 && registration.gettransactionPin()<=9999) && (registration.getAadharNumber()>=100000000000l && registration.getAadharNumber()<= 999999999999l))){
 			
 			return registration;
 			
 		}
+		
 		return null;
 	}
-
 }
