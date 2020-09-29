@@ -36,7 +36,7 @@ public class BankController {
 	Registration registration;
 	
 	@Autowired
-	RegistrationService Regservice;
+	RegistrationService regservice;
 	
 	@Autowired
 	SavingsAccount savings;
@@ -77,7 +77,7 @@ public class BankController {
 	//@ApiOperation(value="insert bank details",produces="json data",response=Registration.class)
 	@PostMapping(path="/add")
 	public Registration userRegistration(@RequestBody Registration registration) {
-		return Regservice.userRegistration(registration);
+		return regservice.userRegistration(registration);
 		
 	}
 	//@ApiOperation(value="insert bank details",produces="json data",response=SavingsAccount.class)
