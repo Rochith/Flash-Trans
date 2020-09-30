@@ -27,7 +27,8 @@ public class ReoccuringAccountService implements IReoccuringAccountService {
 		}
 	}
 	private ReoccuringAccount validateReoccuringAccount(ReoccuringAccount reoccuringaccount) {
-		if((reoccuringaccount.getTransactionPin()>=1000 && reoccuringaccount.getTransactionPin()<=9999)) {
+		if((reoccuringaccount.getTransactionPin()>=1000 && reoccuringaccount.getTransactionPin()<=9999 &&
+				(reoccuringaccount.getBalanceAmount()>1000))) {
 			return reoccuringaccount;
 		}
 		return null;

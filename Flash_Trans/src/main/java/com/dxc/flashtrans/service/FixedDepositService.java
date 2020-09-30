@@ -27,7 +27,8 @@ public class FixedDepositService implements IFixedDepositService {
 		}
 	}
 	private FixedDepositAccount validateFixedDeposit(FixedDepositAccount fixeddepositaccount) {
-		if((fixeddepositaccount.getTransactionPin()>=1000 && fixeddepositaccount.getTransactionPin()<=9999)) {
+		if((fixeddepositaccount.getTransactionPin()>=1000 && fixeddepositaccount.getTransactionPin()<=9999) 
+				&& (fixeddepositaccount.getBalanceAmount()>=1000)) {
 			return fixeddepositaccount;
 		}
 		return null;

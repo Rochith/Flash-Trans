@@ -27,7 +27,8 @@ public class BillPaymentsService implements IBillPaymentsService {
 		}
 	}
 	private BillPayments validateBillPayments(BillPayments billpayments) {
-		if((billpayments.getTransactionPin()>=1000 && billpayments.getTransactionPin()<=9999)) {
+		if((billpayments.getTransactionPin()>=1000 && billpayments.getTransactionPin()<=9999) 
+				&& (billpayments.getBillAmount()>10)) {
 			return billpayments;
 		}
 		return null;
