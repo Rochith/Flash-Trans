@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.dxc.flashtrans.entites.AdminLogin;
+import com.dxc.flashtrans.entites.Balance;
 import com.dxc.flashtrans.entites.BillPayments;
 import com.dxc.flashtrans.entites.FixedDepositAccount;
 import com.dxc.flashtrans.entites.Registration;
@@ -21,6 +22,7 @@ import com.dxc.flashtrans.entites.SavingsAccount;
 import com.dxc.flashtrans.entites.Transfer;
 import com.dxc.flashtrans.entites.WithDraw;
 import com.dxc.flashtrans.service.AdminLoginService;
+import com.dxc.flashtrans.service.BalanceService;
 import com.dxc.flashtrans.service.BillPaymentsService;
 import com.dxc.flashtrans.service.FixedDepositService;
 import com.dxc.flashtrans.service.RegistrationService;
@@ -90,6 +92,12 @@ public class BankController {
 	@Autowired
 	TransferService transferservice;
 	
+	@Autowired
+	Balance balance;
+	
+	@Autowired
+	BalanceService balanceservice;
+	
 	//@ApiOperation(value="insert bank details",produces="json data",response=Registration.class)
 	@PostMapping(path="/add")
 	public Registration userRegistration(@RequestBody Registration registration) {
@@ -148,6 +156,10 @@ public class BankController {
 	@PostMapping(path="/transfer")
 	public Transfer addTransfer(@RequestBody Transfer transfer) {
 		return transferservice.addTransfer(transfer);
+	}
+	@GetMapping(path="/balance")
+	public List<Balance> getBalance(){
+		return balanceservice.getBalance();
 	}
 
 }
