@@ -18,6 +18,8 @@ import com.dxc.flashtrans.entites.Registration;
 import com.dxc.flashtrans.entites.RemittanceManagement;
 import com.dxc.flashtrans.entites.ReoccuringAccount;
 import com.dxc.flashtrans.entites.SavingsAccount;
+import com.dxc.flashtrans.entites.Transfer;
+import com.dxc.flashtrans.entites.WithDraw;
 import com.dxc.flashtrans.service.AdminLoginService;
 import com.dxc.flashtrans.service.BillPaymentsService;
 import com.dxc.flashtrans.service.FixedDepositService;
@@ -25,6 +27,8 @@ import com.dxc.flashtrans.service.RegistrationService;
 import com.dxc.flashtrans.service.RemittanceManagementService;
 import com.dxc.flashtrans.service.ReoccuringAccountService;
 import com.dxc.flashtrans.service.SavingsAccountService;
+import com.dxc.flashtrans.service.TransferService;
+import com.dxc.flashtrans.service.WithDrawService;
 
 //@ApiOperation(value="/mvn",tags="Bank Controller with RestFull")
 @RestController
@@ -73,6 +77,18 @@ public class BankController {
 	
 	@Autowired
 	BillPaymentsService billservice;
+	
+	@Autowired
+	WithDraw withdraw;
+	
+	@Autowired
+	WithDrawService withdrawservice;
+	
+	@Autowired
+	Transfer transfer;
+	
+	@Autowired
+	TransferService transferservice;
 	
 	//@ApiOperation(value="insert bank details",produces="json data",response=Registration.class)
 	@PostMapping(path="/add")
@@ -124,6 +140,14 @@ public class BankController {
 	@PostMapping(path="/bill")
 	public BillPayments addBills(@RequestBody BillPayments billpayments) {
 		return billservice.addBills(billpayments);
+	}
+	@PostMapping(path="/withdraw")
+	public WithDraw validateWithDraw(@RequestBody WithDraw withdraw) {
+		return withdrawservice.addAmount(withdraw);
+	}
+	@PostMapping(path="/transfer")
+	public Transfer addTransfer(@RequestBody Transfer transfer) {
+		return transferservice.addTransfer(transfer);
 	}
 
 }

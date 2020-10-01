@@ -1,0 +1,774 @@
+src/main/java/com/dxc/flashtrans/FlashTransApplication.java:7:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/FlashTransApplication.java:7:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/FlashTransApplication.java:7:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/dxc/flashtrans/FlashTransApplication.java:7:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/dxc/flashtrans/FlashTransApplication.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/FlashTransApplication.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/FlashTransApplication.java:9:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/FlashTransApplication.java:9:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/ServletInitializer.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/ServletInitializer.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/ServletInitializer.java:6:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/ServletInitializer.java:6:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/ServletInitializer.java:9:	MethodArgumentCouldBeFinal: Parameter 'application' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/ServletInitializer.java:9:	MethodArgumentCouldBeFinal: Parameter 'application' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/controller/BankController.java:33:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/controller/BankController.java:33:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/controller/BankController.java:33:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:33:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:35:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:35:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:36:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the registration field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:36:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the registration field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:36:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:36:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:38:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:38:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:39:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/controller/BankController.java:39:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/controller/BankController.java:39:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the regservice field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:39:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the regservice field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:39:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:39:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:41:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:41:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:42:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the savings field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:42:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the savings field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:42:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:42:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:44:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:44:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:45:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/controller/BankController.java:45:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/controller/BankController.java:45:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the savingsservice field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:45:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the savingsservice field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:45:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:45:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:47:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:47:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:48:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the admin field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:48:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the admin field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:48:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:48:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:50:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:50:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:51:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/controller/BankController.java:51:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/controller/BankController.java:51:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the adminservice field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:51:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the adminservice field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:51:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:51:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:53:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:53:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:54:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the fdaccount field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:54:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the fdaccount field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:54:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:54:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:56:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:56:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:57:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/controller/BankController.java:57:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/controller/BankController.java:57:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the fdservice field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:57:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the fdservice field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:57:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:57:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:59:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:59:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:60:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the rdaccount field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:60:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the rdaccount field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:60:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:60:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:62:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:62:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:63:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/controller/BankController.java:63:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/controller/BankController.java:63:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the rdservice field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:63:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the rdservice field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:63:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:63:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:65:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:65:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:66:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the remi field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:66:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the remi field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:66:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:66:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:68:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:68:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:69:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/controller/BankController.java:69:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/controller/BankController.java:69:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the remiservice field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:69:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the remiservice field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:69:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:69:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:71:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:71:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:72:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the bills field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:72:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the bills field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:72:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:72:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:74:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:74:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/controller/BankController.java:75:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/controller/BankController.java:75:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/controller/BankController.java:75:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the billservice field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:75:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the billservice field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/controller/BankController.java:75:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:75:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:77:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/controller/BankController.java:77:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/controller/BankController.java:79:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:79:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:79:	MethodArgumentCouldBeFinal: Parameter 'registration' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/controller/BankController.java:79:	MethodArgumentCouldBeFinal: Parameter 'registration' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/controller/BankController.java:83:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/controller/BankController.java:83:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/controller/BankController.java:85:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:85:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:89:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/controller/BankController.java:89:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/controller/BankController.java:91:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:91:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:95:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/controller/BankController.java:95:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/controller/BankController.java:97:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:97:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:97:	MethodArgumentCouldBeFinal: Parameter 'adminlogin' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/controller/BankController.java:97:	MethodArgumentCouldBeFinal: Parameter 'adminlogin' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/controller/BankController.java:101:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/controller/BankController.java:101:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/controller/BankController.java:103:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:103:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:107:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/controller/BankController.java:107:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/controller/BankController.java:109:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:109:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:109:	LongVariable: Avoid excessively long variable names like fixeddepositaccount
+src/main/java/com/dxc/flashtrans/controller/BankController.java:109:	LongVariable: Avoid excessively long variable names like fixeddepositaccount
+src/main/java/com/dxc/flashtrans/controller/BankController.java:109:	MethodArgumentCouldBeFinal: Parameter 'fixeddepositaccount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/controller/BankController.java:109:	MethodArgumentCouldBeFinal: Parameter 'fixeddepositaccount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/controller/BankController.java:113:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/controller/BankController.java:113:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/controller/BankController.java:115:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:115:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:115:	MethodArgumentCouldBeFinal: Parameter 'reoccuringaccount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/controller/BankController.java:115:	MethodArgumentCouldBeFinal: Parameter 'reoccuringaccount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/controller/BankController.java:120:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:120:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:120:	LongVariable: Avoid excessively long variable names like remittancemanagement
+src/main/java/com/dxc/flashtrans/controller/BankController.java:120:	LongVariable: Avoid excessively long variable names like remittancemanagement
+src/main/java/com/dxc/flashtrans/controller/BankController.java:120:	MethodArgumentCouldBeFinal: Parameter 'remittancemanagement' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/controller/BankController.java:120:	MethodArgumentCouldBeFinal: Parameter 'remittancemanagement' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/controller/BankController.java:125:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:125:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/BankController.java:125:	MethodArgumentCouldBeFinal: Parameter 'billpayments' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/controller/BankController.java:125:	MethodArgumentCouldBeFinal: Parameter 'billpayments' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/controller/ConfigSwagger.java:16:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/controller/ConfigSwagger.java:16:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/controller/ConfigSwagger.java:16:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/controller/ConfigSwagger.java:16:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/controller/ConfigSwagger.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/controller/ConfigSwagger.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:3:	UnusedImports: Avoid unused imports such as 'java.util.Date'
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:3:	UnusedImports: Avoid unused imports such as 'java.util.Date'
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:6:	UnusedImports: Avoid unused imports such as 'javax.persistence.GeneratedValue'
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:6:	UnusedImports: Avoid unused imports such as 'javax.persistence.GeneratedValue'
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:7:	UnusedImports: Avoid unused imports such as 'javax.persistence.GenerationType'
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:7:	UnusedImports: Avoid unused imports such as 'javax.persistence.GenerationType'
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:14:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:14:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:14:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:14:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:14:	DataClass: The class 'AdminLogin' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=8, WMC=9)
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:14:	DataClass: The class 'AdminLogin' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=8, WMC=9)
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:18:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:18:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:19:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:19:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:21:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:21:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:31:	MethodArgumentCouldBeFinal: Parameter 'accountNumber' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:31:	MethodArgumentCouldBeFinal: Parameter 'accountNumber' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:43:	MethodArgumentCouldBeFinal: Parameter 'accountHolder' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:43:	MethodArgumentCouldBeFinal: Parameter 'accountHolder' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:55:	MethodArgumentCouldBeFinal: Parameter 'accountBalance' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:55:	MethodArgumentCouldBeFinal: Parameter 'accountBalance' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:67:	MethodArgumentCouldBeFinal: Parameter 'transactionDate' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/AdminLogin.java:67:	MethodArgumentCouldBeFinal: Parameter 'transactionDate' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:12:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:12:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:12:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:12:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:12:	DataClass: The class 'BillPayments' is suspected to be a Data Class (WOC=9.091%, NOPA=0, NOAM=10, WMC=11)
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:12:	DataClass: The class 'BillPayments' is suspected to be a Data Class (WOC=9.091%, NOPA=0, NOAM=10, WMC=11)
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:16:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:16:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:18:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:18:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:19:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:19:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:20:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:20:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:30:	MethodArgumentCouldBeFinal: Parameter 'billId' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:30:	MethodArgumentCouldBeFinal: Parameter 'billId' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:42:	MethodArgumentCouldBeFinal: Parameter 'billType' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:42:	MethodArgumentCouldBeFinal: Parameter 'billType' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:54:	MethodArgumentCouldBeFinal: Parameter 'billAmount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:54:	MethodArgumentCouldBeFinal: Parameter 'billAmount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:66:	MethodArgumentCouldBeFinal: Parameter 'transactionPin' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:66:	MethodArgumentCouldBeFinal: Parameter 'transactionPin' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:79:	MethodArgumentCouldBeFinal: Parameter 'billNumber' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/BillPayments.java:79:	MethodArgumentCouldBeFinal: Parameter 'billNumber' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:3:	UnusedImports: Avoid unused imports such as 'java.util.Date'
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:3:	UnusedImports: Avoid unused imports such as 'java.util.Date'
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:14:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:14:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:14:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:14:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:14:	DataClass: The class 'FixedDepositAccount' is suspected to be a Data Class (WOC=6.667%, NOPA=0, NOAM=14, WMC=15)
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:14:	DataClass: The class 'FixedDepositAccount' is suspected to be a Data Class (WOC=6.667%, NOPA=0, NOAM=14, WMC=15)
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:18:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:18:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:19:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:19:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:20:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:20:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:21:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:21:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:22:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:22:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:23:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:23:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:33:	MethodArgumentCouldBeFinal: Parameter 'fixedDepositId' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:33:	MethodArgumentCouldBeFinal: Parameter 'fixedDepositId' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:45:	MethodArgumentCouldBeFinal: Parameter 'fdName' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:45:	MethodArgumentCouldBeFinal: Parameter 'fdName' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:57:	MethodArgumentCouldBeFinal: Parameter 'transactionFDate' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:57:	MethodArgumentCouldBeFinal: Parameter 'transactionFDate' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:69:	MethodArgumentCouldBeFinal: Parameter 'transactionTDate' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:69:	MethodArgumentCouldBeFinal: Parameter 'transactionTDate' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:81:	MethodArgumentCouldBeFinal: Parameter 'transactionType' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:81:	MethodArgumentCouldBeFinal: Parameter 'transactionType' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:93:	MethodArgumentCouldBeFinal: Parameter 'balanceAmount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:93:	MethodArgumentCouldBeFinal: Parameter 'balanceAmount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:106:	MethodArgumentCouldBeFinal: Parameter 'transactionPin' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/FixedDepositAccount.java:106:	MethodArgumentCouldBeFinal: Parameter 'transactionPin' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:3:	UnusedImports: Avoid unused imports such as 'java.util.Date'
+src/main/java/com/dxc/flashtrans/entites/Registration.java:3:	UnusedImports: Avoid unused imports such as 'java.util.Date'
+src/main/java/com/dxc/flashtrans/entites/Registration.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/entites/Registration.java:15:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/entites/Registration.java:15:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:15:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:15:	DataClass: The class 'Registration' is suspected to be a Data Class (WOC=4.000%, NOPA=0, NOAM=24, WMC=25)
+src/main/java/com/dxc/flashtrans/entites/Registration.java:15:	DataClass: The class 'Registration' is suspected to be a Data Class (WOC=4.000%, NOPA=0, NOAM=24, WMC=25)
+src/main/java/com/dxc/flashtrans/entites/Registration.java:20:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:20:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:21:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:21:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:22:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:22:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:23:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:23:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:24:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:24:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:25:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:25:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:26:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:26:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:27:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:27:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:28:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:28:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:29:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:29:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:30:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/entites/Registration.java:30:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/entites/Registration.java:30:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:30:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:31:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:31:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/Registration.java:41:	MethodArgumentCouldBeFinal: Parameter 'gender' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:41:	MethodArgumentCouldBeFinal: Parameter 'gender' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:53:	MethodArgumentCouldBeFinal: Parameter 'userId' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:53:	MethodArgumentCouldBeFinal: Parameter 'userId' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:65:	MethodArgumentCouldBeFinal: Parameter 'userName' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:65:	MethodArgumentCouldBeFinal: Parameter 'userName' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:77:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:77:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:89:	MethodArgumentCouldBeFinal: Parameter 'firstName' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:89:	MethodArgumentCouldBeFinal: Parameter 'firstName' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:101:	MethodArgumentCouldBeFinal: Parameter 'lastName' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:101:	MethodArgumentCouldBeFinal: Parameter 'lastName' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:113:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:113:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:125:	MethodArgumentCouldBeFinal: Parameter 'phoneNumber' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:125:	MethodArgumentCouldBeFinal: Parameter 'phoneNumber' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:137:	MethodArgumentCouldBeFinal: Parameter 'accountType' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:137:	MethodArgumentCouldBeFinal: Parameter 'accountType' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:149:	MethodArgumentCouldBeFinal: Parameter 'aadharNumber' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:149:	MethodArgumentCouldBeFinal: Parameter 'aadharNumber' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:161:	MethodArgumentCouldBeFinal: Parameter 'dateOfBirth' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:161:	MethodArgumentCouldBeFinal: Parameter 'dateOfBirth' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:173:	MethodArgumentCouldBeFinal: Parameter 'transactionPin' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/Registration.java:173:	MethodArgumentCouldBeFinal: Parameter 'transactionPin' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:19:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:19:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:19:	DataClass: The class 'RemittanceManagement' is suspected to be a Data Class (WOC=6.667%, NOPA=0, NOAM=14, WMC=15)
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:19:	DataClass: The class 'RemittanceManagement' is suspected to be a Data Class (WOC=6.667%, NOPA=0, NOAM=14, WMC=15)
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:23:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:23:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:24:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:24:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:25:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:25:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:26:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:26:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:27:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:27:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:28:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:28:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:29:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:29:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:39:	MethodArgumentCouldBeFinal: Parameter 'rmId' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:39:	MethodArgumentCouldBeFinal: Parameter 'rmId' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:51:	MethodArgumentCouldBeFinal: Parameter 'rmName' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:51:	MethodArgumentCouldBeFinal: Parameter 'rmName' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:63:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:63:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:75:	MethodArgumentCouldBeFinal: Parameter 'cardName' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:75:	MethodArgumentCouldBeFinal: Parameter 'cardName' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:87:	MethodArgumentCouldBeFinal: Parameter 'cardNo' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:87:	MethodArgumentCouldBeFinal: Parameter 'cardNo' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:99:	MethodArgumentCouldBeFinal: Parameter 'expDate' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:99:	MethodArgumentCouldBeFinal: Parameter 'expDate' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:111:	MethodArgumentCouldBeFinal: Parameter 'cvv' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/RemittanceManagement.java:111:	MethodArgumentCouldBeFinal: Parameter 'cvv' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:3:	UnusedImports: Avoid unused imports such as 'java.util.Date'
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:3:	UnusedImports: Avoid unused imports such as 'java.util.Date'
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:14:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:14:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:14:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:14:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:14:	DataClass: The class 'ReoccuringAccount' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=12, WMC=15)
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:14:	DataClass: The class 'ReoccuringAccount' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=12, WMC=15)
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:19:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:19:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:19:	LongVariable: Avoid excessively long variable names like reoccuringAccountId
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:19:	LongVariable: Avoid excessively long variable names like reoccuringAccountId
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:20:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:20:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:21:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:21:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:22:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:22:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:22:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:22:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:23:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:23:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:24:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:24:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:25:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:25:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:35:	LongVariable: Avoid excessively long variable names like reoccuringAccountId
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:35:	LongVariable: Avoid excessively long variable names like reoccuringAccountId
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:35:	MethodArgumentCouldBeFinal: Parameter 'reoccuringAccountId' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:35:	MethodArgumentCouldBeFinal: Parameter 'reoccuringAccountId' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:47:	MethodArgumentCouldBeFinal: Parameter 'transactionDate' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:47:	MethodArgumentCouldBeFinal: Parameter 'transactionDate' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:59:	MethodArgumentCouldBeFinal: Parameter 'transactionType' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:59:	MethodArgumentCouldBeFinal: Parameter 'transactionType' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:71:	MethodArgumentCouldBeFinal: Parameter 'balanceAmount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:71:	MethodArgumentCouldBeFinal: Parameter 'balanceAmount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:84:	MethodArgumentCouldBeFinal: Parameter 'transactionTDate' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:84:	MethodArgumentCouldBeFinal: Parameter 'transactionTDate' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:96:	MethodArgumentCouldBeFinal: Parameter 'rdName' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:96:	MethodArgumentCouldBeFinal: Parameter 'rdName' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:116:	MethodArgumentCouldBeFinal: Parameter 'transactionPin' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:116:	MethodArgumentCouldBeFinal: Parameter 'transactionPin' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:124:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/entites/ReoccuringAccount.java:124:	CommentSize: Comment is too large: Line too long
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:4:	UnusedImports: Avoid unused imports such as 'java.util.Date'
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:4:	UnusedImports: Avoid unused imports such as 'java.util.Date'
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:16:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:16:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:16:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:16:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:16:	DataClass: The class 'SavingsAccount' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=8, WMC=9)
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:16:	DataClass: The class 'SavingsAccount' is suspected to be a Data Class (WOC=11.111%, NOPA=0, NOAM=8, WMC=9)
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:21:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:21:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:22:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:22:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:23:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:23:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:24:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:24:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:34:	MethodArgumentCouldBeFinal: Parameter 'savingsId' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:34:	MethodArgumentCouldBeFinal: Parameter 'savingsId' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:46:	MethodArgumentCouldBeFinal: Parameter 'transactionDate' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:46:	MethodArgumentCouldBeFinal: Parameter 'transactionDate' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:58:	MethodArgumentCouldBeFinal: Parameter 'transactionType' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:58:	MethodArgumentCouldBeFinal: Parameter 'transactionType' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:70:	MethodArgumentCouldBeFinal: Parameter 'balance' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/entites/SavingsAccount.java:70:	MethodArgumentCouldBeFinal: Parameter 'balance' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/exceptions/BillPaymentsException.java:3:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/exceptions/BillPaymentsException.java:3:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/exceptions/BillPaymentsException.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/exceptions/BillPaymentsException.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/exceptions/BillPaymentsException.java:10:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/exceptions/BillPaymentsException.java:10:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/exceptions/FixedDepositException.java:3:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/exceptions/FixedDepositException.java:3:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/exceptions/FixedDepositException.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/exceptions/FixedDepositException.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/exceptions/FixedDepositException.java:10:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/exceptions/FixedDepositException.java:10:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/exceptions/RegistrationException.java:3:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/exceptions/RegistrationException.java:3:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/exceptions/RegistrationException.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/exceptions/RegistrationException.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/exceptions/RegistrationException.java:10:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/exceptions/RegistrationException.java:10:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/exceptions/RemittanceManagementException.java:3:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/exceptions/RemittanceManagementException.java:3:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/exceptions/RemittanceManagementException.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/exceptions/RemittanceManagementException.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/exceptions/RemittanceManagementException.java:10:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/exceptions/RemittanceManagementException.java:10:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/exceptions/ReoccuringAccountException.java:3:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/exceptions/ReoccuringAccountException.java:3:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/exceptions/ReoccuringAccountException.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/exceptions/ReoccuringAccountException.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/exceptions/ReoccuringAccountException.java:10:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/exceptions/ReoccuringAccountException.java:10:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/repository/IAdminLogin.java:9:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/repository/IAdminLogin.java:9:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/repository/IBillPayments.java:9:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/repository/IBillPayments.java:9:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/repository/IFixedDepositAccount.java:9:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/repository/IFixedDepositAccount.java:9:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/repository/IRegistration.java:9:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/repository/IRegistration.java:9:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/repository/IRemittanceManagement.java:9:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/repository/IRemittanceManagement.java:9:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/repository/IReoccuringAccount.java:9:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/repository/IReoccuringAccount.java:9:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/repository/ISavingsAccount.java:11:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/repository/ISavingsAccount.java:11:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:12:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:12:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:12:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:12:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:14:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:14:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:15:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the log field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:15:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the log field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:15:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:15:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:17:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:17:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:18:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:18:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:18:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the admin field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:18:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the admin field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:18:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:18:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:28:	MethodArgumentCouldBeFinal: Parameter 'adminlogin' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/AdminLoginService.java:28:	MethodArgumentCouldBeFinal: Parameter 'adminlogin' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:11:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:11:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the bill field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the bill field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:14:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:14:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:16:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:16:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:17:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the repobill field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:17:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the repobill field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:20:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:20:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:20:	MethodArgumentCouldBeFinal: Parameter 'billpayments' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:20:	MethodArgumentCouldBeFinal: Parameter 'billpayments' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:22:	LinguisticNaming: Linguistics Antipattern - The variable 'isValid' indicates linguistically it is a boolean, but it is 'BillPayments'
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:22:	LinguisticNaming: Linguistics Antipattern - The variable 'isValid' indicates linguistically it is a boolean, but it is 'BillPayments'
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:22:	LocalVariableCouldBeFinal: Local variable 'isValid' could be declared final
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:22:	LocalVariableCouldBeFinal: Local variable 'isValid' could be declared final
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:23:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:23:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:29:	MethodArgumentCouldBeFinal: Parameter 'billpayments' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:29:	MethodArgumentCouldBeFinal: Parameter 'billpayments' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:30:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:30:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:31:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/dxc/flashtrans/service/BillPaymentsService.java:31:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:11:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:11:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the fdaccount field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the fdaccount field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:14:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:14:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:16:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:16:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:17:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the fdrepo field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:17:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the fdrepo field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:20:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:20:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:20:	LongVariable: Avoid excessively long variable names like fixeddepositaccount
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:20:	LongVariable: Avoid excessively long variable names like fixeddepositaccount
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:20:	MethodArgumentCouldBeFinal: Parameter 'fixeddepositaccount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:20:	MethodArgumentCouldBeFinal: Parameter 'fixeddepositaccount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:22:	LinguisticNaming: Linguistics Antipattern - The variable 'isValid' indicates linguistically it is a boolean, but it is 'FixedDepositAccount'
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:22:	LinguisticNaming: Linguistics Antipattern - The variable 'isValid' indicates linguistically it is a boolean, but it is 'FixedDepositAccount'
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:22:	LocalVariableCouldBeFinal: Local variable 'isValid' could be declared final
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:22:	LocalVariableCouldBeFinal: Local variable 'isValid' could be declared final
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:23:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:23:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:29:	LongVariable: Avoid excessively long variable names like fixeddepositaccount
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:29:	LongVariable: Avoid excessively long variable names like fixeddepositaccount
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:29:	MethodArgumentCouldBeFinal: Parameter 'fixeddepositaccount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:29:	MethodArgumentCouldBeFinal: Parameter 'fixeddepositaccount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:30:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:30:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:31:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/dxc/flashtrans/service/FixedDepositService.java:31:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/dxc/flashtrans/service/IAdminLoginService.java:7:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/IAdminLoginService.java:7:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/IAdminLoginService.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/IAdminLoginService.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/IAdminLoginService.java:9:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getAllTransactions': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/IAdminLoginService.java:9:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getAllTransactions': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/IAdminLoginService.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/IAdminLoginService.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/IAdminLoginService.java:11:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'adminDeposit': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/IAdminLoginService.java:11:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'adminDeposit': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/IBillPaymentsService.java:5:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/IBillPaymentsService.java:5:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/IBillPaymentsService.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/IBillPaymentsService.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/IBillPaymentsService.java:7:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'addBills': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/IBillPaymentsService.java:7:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'addBills': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/IFixedDepositService.java:5:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/IFixedDepositService.java:5:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/IFixedDepositService.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/IFixedDepositService.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/IFixedDepositService.java:7:	LongVariable: Avoid excessively long variable names like fixeddepositaccount
+src/main/java/com/dxc/flashtrans/service/IFixedDepositService.java:7:	LongVariable: Avoid excessively long variable names like fixeddepositaccount
+src/main/java/com/dxc/flashtrans/service/IFixedDepositService.java:7:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'depositAmount': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/IFixedDepositService.java:7:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'depositAmount': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/IRegistrationService.java:8:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/IRegistrationService.java:8:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/IRegistrationService.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/IRegistrationService.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/IRegistrationService.java:10:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'userRegistration': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/IRegistrationService.java:10:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'userRegistration': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/IRemittanceManagementService.java:5:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/IRemittanceManagementService.java:5:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/IRemittanceManagementService.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/IRemittanceManagementService.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/IRemittanceManagementService.java:7:	LongVariable: Avoid excessively long variable names like remittancemanagement
+src/main/java/com/dxc/flashtrans/service/IRemittanceManagementService.java:7:	LongVariable: Avoid excessively long variable names like remittancemanagement
+src/main/java/com/dxc/flashtrans/service/IRemittanceManagementService.java:7:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'addAccount': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/IRemittanceManagementService.java:7:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'addAccount': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/IReoccuringAccountService.java:5:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/IReoccuringAccountService.java:5:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/IReoccuringAccountService.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/IReoccuringAccountService.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/IReoccuringAccountService.java:7:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'depositAmount': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/IReoccuringAccountService.java:7:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'depositAmount': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/ISavingsAccountService.java:7:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/ISavingsAccountService.java:7:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/ISavingsAccountService.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/ISavingsAccountService.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/ISavingsAccountService.java:9:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'miniStatement': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/ISavingsAccountService.java:9:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'miniStatement': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/ISavingsAccountService.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/ISavingsAccountService.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/dxc/flashtrans/service/ISavingsAccountService.java:11:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'eStatement': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/ISavingsAccountService.java:11:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'eStatement': the method is declared in an interface type
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:11:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:11:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the user field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the user field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:14:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:14:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:16:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:16:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:17:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the data field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:17:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the data field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:20:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:20:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:20:	MethodArgumentCouldBeFinal: Parameter 'registration' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:20:	MethodArgumentCouldBeFinal: Parameter 'registration' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:22:	LinguisticNaming: Linguistics Antipattern - The variable 'isValid' indicates linguistically it is a boolean, but it is 'Registration'
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:22:	LinguisticNaming: Linguistics Antipattern - The variable 'isValid' indicates linguistically it is a boolean, but it is 'Registration'
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:22:	LocalVariableCouldBeFinal: Local variable 'isValid' could be declared final
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:22:	LocalVariableCouldBeFinal: Local variable 'isValid' could be declared final
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:23:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:23:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:33:	CyclomaticComplexity: The method 'validateRegistration(Registration)' has a cyclomatic complexity of 10.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:33:	CyclomaticComplexity: The method 'validateRegistration(Registration)' has a cyclomatic complexity of 10.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:33:	MethodArgumentCouldBeFinal: Parameter 'registration' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:33:	MethodArgumentCouldBeFinal: Parameter 'registration' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:35:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:35:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:35:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:35:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:35:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:35:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:35:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:35:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:37:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:37:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:37:	UseUnderscoresInNumericLiterals: Number 1000000000l should separate every third digit with an underscore
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:37:	UseUnderscoresInNumericLiterals: Number 1000000000l should separate every third digit with an underscore
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:37:	UseUnderscoresInNumericLiterals: Number 9999999999l should separate every third digit with an underscore
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:37:	UseUnderscoresInNumericLiterals: Number 9999999999l should separate every third digit with an underscore
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:37:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:37:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:37:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:37:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:38:	UseUnderscoresInNumericLiterals: Number 100000000000l should separate every third digit with an underscore
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:38:	UseUnderscoresInNumericLiterals: Number 100000000000l should separate every third digit with an underscore
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:38:	UseUnderscoresInNumericLiterals: Number 999999999999l should separate every third digit with an underscore
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:38:	UseUnderscoresInNumericLiterals: Number 999999999999l should separate every third digit with an underscore
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:38:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:38:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:38:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:38:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:40:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/dxc/flashtrans/service/RegistrationService.java:40:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:11:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:11:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the remi field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the remi field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:14:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:14:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:16:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:16:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:17:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:17:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the remirepo field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:17:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the remirepo field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:20:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:20:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:20:	LongVariable: Avoid excessively long variable names like remittancemanagement
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:20:	LongVariable: Avoid excessively long variable names like remittancemanagement
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:20:	MethodArgumentCouldBeFinal: Parameter 'remittancemanagement' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:20:	MethodArgumentCouldBeFinal: Parameter 'remittancemanagement' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:22:	LinguisticNaming: Linguistics Antipattern - The variable 'isValid' indicates linguistically it is a boolean, but it is 'RemittanceManagement'
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:22:	LinguisticNaming: Linguistics Antipattern - The variable 'isValid' indicates linguistically it is a boolean, but it is 'RemittanceManagement'
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:22:	LocalVariableCouldBeFinal: Local variable 'isValid' could be declared final
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:22:	LocalVariableCouldBeFinal: Local variable 'isValid' could be declared final
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:24:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:24:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:34:	LongVariable: Avoid excessively long variable names like remittancemanagement
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:34:	LongVariable: Avoid excessively long variable names like remittancemanagement
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:34:	MethodArgumentCouldBeFinal: Parameter 'remittancemanagement' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:34:	MethodArgumentCouldBeFinal: Parameter 'remittancemanagement' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:36:	UseUnderscoresInNumericLiterals: Number 1000000000000000l should separate every third digit with an underscore
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:36:	UseUnderscoresInNumericLiterals: Number 1000000000000000l should separate every third digit with an underscore
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:36:	UseUnderscoresInNumericLiterals: Number 9999999999999999l should separate every third digit with an underscore
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:36:	UseUnderscoresInNumericLiterals: Number 9999999999999999l should separate every third digit with an underscore
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:36:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:36:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:38:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/dxc/flashtrans/service/RemittanceManagementService.java:38:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:11:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:11:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:14:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:14:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the rdrepo field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the rdrepo field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:14:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:14:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:16:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:16:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:17:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the rdaccount field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:17:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the rdaccount field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:17:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:20:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:20:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:20:	MethodArgumentCouldBeFinal: Parameter 'reoccuringaccount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:20:	MethodArgumentCouldBeFinal: Parameter 'reoccuringaccount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:22:	LinguisticNaming: Linguistics Antipattern - The variable 'isValid' indicates linguistically it is a boolean, but it is 'ReoccuringAccount'
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:22:	LinguisticNaming: Linguistics Antipattern - The variable 'isValid' indicates linguistically it is a boolean, but it is 'ReoccuringAccount'
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:22:	LocalVariableCouldBeFinal: Local variable 'isValid' could be declared final
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:22:	LocalVariableCouldBeFinal: Local variable 'isValid' could be declared final
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:23:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:23:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:29:	MethodArgumentCouldBeFinal: Parameter 'reoccuringaccount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:29:	MethodArgumentCouldBeFinal: Parameter 'reoccuringaccount' is not assigned and could be declared final
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:30:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:30:	UselessParentheses: Useless parentheses.
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:31:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/dxc/flashtrans/service/ReoccuringAccountService.java:31:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:3:	UnusedImports: Avoid unused imports such as 'java.util.Date'
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:3:	UnusedImports: Avoid unused imports such as 'java.util.Date'
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:13:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:13:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:13:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:13:	CommentRequired: Class comments are required
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:15:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:15:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:16:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:16:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:16:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the savings field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:16:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the savings field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:16:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:16:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:18:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:18:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:19:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the save field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:19:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the save field if you want a default access modifier
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:19:	CommentRequired: Field comments are required
+src/main/java/com/dxc/flashtrans/service/SavingsAccountService.java:19:	CommentRequired: Field comments are required
+src/test/java/com/dxc/flashtrans/FlashTransApplicationTests.java:7:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/dxc/flashtrans/FlashTransApplicationTests.java:7:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/dxc/flashtrans/FlashTransApplicationTests.java:7:	CommentRequired: Class comments are required
+src/test/java/com/dxc/flashtrans/FlashTransApplicationTests.java:7:	CommentRequired: Class comments are required
+src/test/java/com/dxc/flashtrans/FlashTransApplicationTests.java:10:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the contextLoads method if you want a default access modifier
+src/test/java/com/dxc/flashtrans/FlashTransApplicationTests.java:10:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the contextLoads method if you want a default access modifier
+src/test/java/com/dxc/flashtrans/FlashTransApplicationTests.java:10:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/dxc/flashtrans/FlashTransApplicationTests.java:10:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/dxc/flashtrans/FlashTransApplicationTests.java:10:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/dxc/flashtrans/FlashTransApplicationTests.java:10:	UncommentedEmptyMethodBody: Document empty method body
