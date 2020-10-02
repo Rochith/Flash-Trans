@@ -81,7 +81,7 @@ public class BillPayments {
 	}
 	@Override
 	public String toString() {
-		return "BillPayments [billId=" + billId + ", billType=" + billType + ", billAmount=" + billAmount
+		return "BillPaymentsTest [billId=" + billId + ", billType=" + billType + ", billAmount=" + billAmount
 				+ ", transactionPin=" + transactionPin + ", billNumber=" + billNumber + "]";
 	}
 	

@@ -12,13 +12,19 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.dxc.flashtrans.FlashTransApplication;
-
-import com.dxc.flashtrans.entites.ReoccuringAccount;
+import com.dxc.flashtrans.entites.BillPayments;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes =FlashTransApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class ReoccuringAccountTest {
+
+
+public class BillPaymentsTest {
+
 	
+	
+	
+	
+
 	@Autowired
     private TestRestTemplate restTemplate;
 
@@ -28,14 +34,18 @@ public class ReoccuringAccountTest {
     private String getRootUrl() {
         return "http://localhost:" + port;
     }
-    @Test
-    public void ReccouringAccountTest() {
-    	ReoccuringAccount reoccuring = new ReoccuringAccount();
-    	reoccuring.setRdName("rochith");
-    	reoccuring.setTransactionPin(6666);
-    	ResponseEntity<ReoccuringAccount> postResponse = restTemplate.postForEntity(getRootUrl() + "/rdadd", reoccuring, ReoccuringAccount.class);
-        assertNotNull(postResponse);
-        assertNotNull(postResponse.getBody());
-    }
 
+    @Test
+    public void TestCreateBillPaymentsTest() {
+    	BillPayments billpayments =new BillPayments();
+    	billpayments.setBillType("flash");
+    	billpayments.setBillAmount(1236);
+    	billpayments.setBillNumber(87654);
+    	billpayments.setTransactionPin(4444);
+    	
+  
+    	 ResponseEntity<BillPayments> postResponse = restTemplate.postForEntity(getRootUrl() + "/tadd",billpayments, BillPayments.class);
+	        assertNotNull(postResponse);
+	        assertNotNull(postResponse.getBody());
+    }
 }

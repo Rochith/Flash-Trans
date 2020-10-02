@@ -1,6 +1,6 @@
 package com.dxc.flashtrans.entites;
 
-import java.util.Date;
+
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
